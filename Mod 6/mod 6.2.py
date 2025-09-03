@@ -2,7 +2,7 @@ import random
 
 max_heitto = int(input("Mikä on nopan isoin luku?:")) #käyttäjältä saatava maksimi tulos
 
-def nopanheitot(*args): #Funktio heittää noppaa ja tulostaa nopasta tulevan luvun
+def nopanheitot(max_heitto): #Funktio heittää noppaa ja tulostaa nopasta tulevan luvun
     heitto = random.randint(1,max_heitto) #Nopan heitto
     heitot = 1  # Heiton numero
     while heitto < max_heitto:
