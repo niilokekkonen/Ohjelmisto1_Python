@@ -13,7 +13,7 @@ while True:
         print(f"Numero 6 sammuttaa ohjelman")
         heitot += 1  # Kasvattaa heiton numeroa joka kierroksella 1
         break
-    heitot += 1 #Kasvattaa heiton numeroa joka kierroksella 1
+
 
 
 
